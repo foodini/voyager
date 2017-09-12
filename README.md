@@ -13,3 +13,8 @@ https://drive.google.com/drive/folders/0B0Swx_1rwA6XcFFLc29ncFJSZmM
 
 If you're interested in the attack on this problem:
 https://boingboing.net/2017/09/05/how-to-decode-the-images-on-th.html
+
+* voyager.cpp processes LeftChannel.raw and RightChannel.raw into output images.
+* waveforms.cpp draws LeftChannel.raw and RightChannel.raw waveform images.
+* composite.cpp creates the final frames of the video from previous products.
+* ffmpeg.sh requires that you have ffmpeg installed and creates the video.
